@@ -1,12 +1,12 @@
 {
   "name": "genpark-agent-conflict-resolution-merger-skill",
-  "version": "1.0.0",
-  "description": "3-way operational transform / conflict resolution merger for multi-agent concurrent writes to code/documents",
+  "version": "2.0.0",
+  "description": "3-way operational transform text and structured document merger with semantic conflict detection for multi-agent workflows",
+  "author": "GenPark AI Engineering",
+  "license": "MIT",
+  "keywords": ["conflict-resolution", "operational-transform", "3-way-merge", "multi-agent", "mcp", "agent-skills"],
   "mcp": {
-    "server": "mcp_server.py",
-    "tools": [
-      "merge_3way",
-      "detect_conflicts"
-    ]
+    "supported": true,
+    "entrypoint": "mcp_server.py"
   }
 }
